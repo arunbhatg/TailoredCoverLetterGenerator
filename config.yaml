@@ -1,0 +1,9 @@
+JD_INFO: "JD for Arun"
+
+PDF_FILE_PATH: "arunCV.pdf"
+OPENAI_KEY: "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"
+INITIAL_TEXT: |
+  My Name is Arun Bhat. Data scientist at Altimetrik with 4.2 years of experience.
+  Write a tailored cover letter for attached JD, resume to apply for the data science role at XYZ company
+  JD: "JD"
+  Resume: "CV"
