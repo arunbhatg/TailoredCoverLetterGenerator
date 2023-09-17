@@ -41,7 +41,7 @@ def generate_cover_letter(JD=0):
     
     openai.api_key = config['OPENAI_KEY']
 
-    message = [{"role": "user", "content": initial_text[:10]}]
+    message = [{"role": "user", "content": initial_text}]
     response = openai.ChatCompletion.create(
     model="gpt-3.5-turbo",
     messages=message,
